@@ -1,0 +1,40 @@
+.game {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 40px 15px ;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px ;
+    padding: 30px;
+    background-color: rgb(189, 92, 254);
+    font-size: 0px;
+    color: transparent;
+    border: 3px black solid;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+
+.card:active {
+    background-color:violet ;
+}
+
+.open {
+    font-size: 80px;
+    color: aqua;
+    background-color: black;
+    cursor: default;
+}
+
+.success {
+    background-color: rgb(55, 240, 55);
+    color: black;
+}
