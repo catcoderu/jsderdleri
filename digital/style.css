@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+
+    
+}
+
+#clock{
+    
+    font-size: 100px;
+    font-family: monospace;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+    color: lime;
+    box-shadow: 5px 10px 68px  green;
+
+
+   
+  
+    
+    
+    
+ 
+}
+
